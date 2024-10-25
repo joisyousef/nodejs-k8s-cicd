@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b83e59af4119e8a",
+        "id": "167fdab14fa82917",
         "type": "tabs",
         "children": [
           {
-            "id": "329330c37dd20d0c",
+            "id": "c4b35da06a9efe0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,24 +181,25 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "329330c37dd20d0c",
+  "active": "c4b35da06a9efe0d",
   "lastOpenFiles": [
-    "attachment/Pasted image 20241025082035.png",
-    "TRANSLATION.md",
     "attachment/f2b035d9c5a2b32485393c51cee80197.png",
     "attachment/d2ff2fe0fabcc8a7556bf7091bba5171.png",
     "attachment/bdc3cad3e4e5484bfdc451706ceead18.png",
     "attachment/bccdac2c03995e4c47c32c3e09344589.png",
+    "attachment/Pasted image 20241025082035.png",
     "attachment/495a1832de3e5bda62c3acdd9f873c7d.png",
     "attachment/42ab32904955cc3f0e30f181b05893a0.png",
     "attachment/2cad90618c39b515f5dd3bf390995567.png",
     "attachment/2274bc5578eb47229b02a771ba75fead.png",
     "attachment",
-    "output/README.md",
-    "output/attachment/42ab32904955cc3f0e30f181b05893a0.png",
-    "output/attachment/2cad90618c39b515f5dd3bf390995567.png",
     "output/attachment",
     "output",
+    "Pasted image 20241025084015.png",
+    "attachment.md",
+    "README.md",
+    "TRANSLATION.md",
+    "output/README.md",
     "LabOne/kubernetes lab one.md",
     "LabSeven/kubernetes lab seven.md",
     "LabSix/kubernetes lab six.md",
