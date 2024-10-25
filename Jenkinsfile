@@ -31,6 +31,12 @@ pipeline {
             }
         }
 
+         stage('Build Code'){
+            steps{
+                sh 'node -v'
+            }
+        }
+
         stage('Build Code'){
             steps{
                 sh 'npm run build'
