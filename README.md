@@ -98,6 +98,8 @@ jenkins pipeline
 
 ![](attachment/bdc3cad3e4e5484bfdc451706ceead18.png)
 
+![[Pasted image 20241025082035.png]]
+
 ![](attachment/f2b035d9c5a2b32485393c51cee80197.png)
 
 ![](attachment/bccdac2c03995e4c47c32c3e09344589.png)

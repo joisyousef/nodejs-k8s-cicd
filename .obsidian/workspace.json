@@ -11,10 +11,14 @@
             "id": "329330c37dd20d0c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -99,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -117,11 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -142,9 +148,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           }
         ]
@@ -175,6 +183,8 @@
   },
   "active": "329330c37dd20d0c",
   "lastOpenFiles": [
+    "attachment/Pasted image 20241025082035.png",
+    "TRANSLATION.md",
     "attachment/f2b035d9c5a2b32485393c51cee80197.png",
     "attachment/d2ff2fe0fabcc8a7556bf7091bba5171.png",
     "attachment/bdc3cad3e4e5484bfdc451706ceead18.png",
@@ -187,7 +197,6 @@
     "output/README.md",
     "output/attachment/42ab32904955cc3f0e30f181b05893a0.png",
     "output/attachment/2cad90618c39b515f5dd3bf390995567.png",
-    "output/attachment/bccdac2c03995e4c47c32c3e09344589.png",
     "output/attachment",
     "output",
     "LabOne/kubernetes lab one.md",

@@ -27,51 +27,44 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 dir('nodejs.org') {
-                    sh 'export PATH="/home/qmo/.nvm/versions/node/v18.20.4/bin:$PATH" && sudo npm install'
+                    sh 'sudo npm ci'
                 }
             }
         }
 
-         stage('node version'){
-            steps{
-                sh 'node -v'
-            }
-        }
-
-
         stage('Run Unit Tests') {
             steps {
                 echo 'Running Unit Tests...'
-                sh 'npm run test || { echo "Unit tests failed"; exit 1; }'
+                sh 'sudo npm run test || { echo "Unit tests failed"; exit 1; }'
             }
         }
 
-        // stage('Dockerize') {
-        //     steps {
-        //         script {
-        //             try {
-        //                 echo "Building Docker image..."
-        //                 // Use sudo to run docker build if necessary
-        //                 sh "sudo docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
-        //                 echo "Docker image built successfully: ${IMAGE_NAME}:${IMAGE_TAG}"
-        //             } catch (Exception e) {
-        //                 echo "Docker build failed: ${e.getMessage()}"
-        //                 currentBuild.result = 'FAILURE'
-        //                 error("Stopping pipeline due to Docker build failure.")
-        //             }
-        //         }
-        //     }
-        // }
+        stage('Dockerize') {
+            steps {
+                script {
+                    try {
+                        echo "Building Docker image..."
+                        // Use sudo to run docker build if necessary
+                        sh "sudo docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
+                        echo "Docker image built successfully: ${IMAGE_NAME}:${IMAGE_TAG}"
+                    } catch (Exception e) {
+                        echo "Docker build failed: ${e.getMessage()}"
+                        currentBuild.result = 'FAILURE'
+                        error("Stopping pipeline due to Docker build failure.")
+                    }
+                }
+            }
+        }
 
-        // stage('Push Docker Image to Docker Hub') {
-        //     steps {
-        //         script {
-        //             withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
-        //                 sh 'sudo docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
-        //                 sh "sudo docker push ${IMAGE_NAME}:${IMAGE_TAG}"
-        //             }
-        //         }
-        //     }
-        // }
+        stage('Push Docker Image to Docker Hub') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: DOCKER_CREDENTIALS_ID, passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
+                        sh 'sudo docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+                        sh "sudo docker push ${IMAGE_NAME}:${IMAGE_TAG}"
+                    }
+                }
+            }
+        }
     }
 }
