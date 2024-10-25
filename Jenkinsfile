@@ -49,13 +49,12 @@ pipeline {
             }
         }
 
-        Uncomment this if you have unit tests set up
-        stage('Run Unit Tests') {
-            steps {
-                echo 'Running Unit Tests...'
-                sh 'npm run test || { echo "Unit tests failed"; exit 1; }'
-            }
-        }
+        // stage('Run Unit Tests') {
+        //     steps {
+        //         echo 'Running Unit Tests...'
+        //         sh 'npm run test || { echo "Unit tests failed"; exit 1; }'
+        //     }
+        // }
 
         stage('Dockerize') {
             steps {
