@@ -31,7 +31,7 @@ pipeline {
             }
         }
 
-         stage('Build Code'){
+         stage('node version'){
             steps{
                 sh 'node -v'
             }
