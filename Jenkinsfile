@@ -4,7 +4,7 @@ pipeline {
         GIT_REPO = 'https://github.com/joisyousef/nodejs.org.git'
         DOCKER_USER = "joisyousef"
         DOCKER_PASS = "docker-hub-credentials" // Jenkins credentials ID for Docker Hub
-        APP_NAME = "nodejs-app"
+        APP_NAME = "node-js-app"
         IMAGE_NAME = "${DOCKER_USER}/${APP_NAME}"
         IMAGE_TAG = 'latest'
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
