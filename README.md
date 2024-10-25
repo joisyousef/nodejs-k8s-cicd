@@ -90,22 +90,22 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 jenkins pipeline
 
-![[Pasted image 20241025080228.png]]
+![](attachment/d2ff2fe0fabcc8a7556bf7091bba5171.png)
 
-![[Pasted image 20241025080241.png]]
+![](attachment/2274bc5578eb47229b02a771ba75fead.png)
 
-![[Pasted image 20241025080805.png]]
+![](attachment/495a1832de3e5bda62c3acdd9f873c7d.png)
 
-![[Pasted image 20241025080827.png]]
+![](attachment/bdc3cad3e4e5484bfdc451706ceead18.png)
 
-![[Pasted image 20241025080854.png]]
+![](attachment/f2b035d9c5a2b32485393c51cee80197.png)
 
-![[Pasted image 20241025080938.png]]
+![](attachment/bccdac2c03995e4c47c32c3e09344589.png)
 
 on Dockerhub
 
-![[Pasted image 20241025080730.png]]
+![](attachment/2cad90618c39b515f5dd3bf390995567.png)
 
 on Argocd
 
-![[Pasted image 20241025080258.png]]
+![](attachment/42ab32904955cc3f0e30f181b05893a0.png)

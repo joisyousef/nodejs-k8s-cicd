@@ -11,12 +11,10 @@
             "id": "329330c37dd20d0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LabSeven/kubernetes lab seven.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -39,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -84,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -93,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LabSeven/kubernetes lab seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +106,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -110,10 +117,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LabSeven/kubernetes lab seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -124,7 +132,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,9 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LabSeven/kubernetes lab seven.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -146,6 +156,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-projects:Open projects": false,
       "obsidian-to-notion:Share to notion": false,
@@ -153,18 +169,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
   "active": "329330c37dd20d0c",
   "lastOpenFiles": [
+    "attachment/f2b035d9c5a2b32485393c51cee80197.png",
+    "attachment/d2ff2fe0fabcc8a7556bf7091bba5171.png",
+    "attachment/bdc3cad3e4e5484bfdc451706ceead18.png",
+    "attachment/bccdac2c03995e4c47c32c3e09344589.png",
+    "attachment/495a1832de3e5bda62c3acdd9f873c7d.png",
+    "attachment/42ab32904955cc3f0e30f181b05893a0.png",
+    "attachment/2cad90618c39b515f5dd3bf390995567.png",
+    "attachment/2274bc5578eb47229b02a771ba75fead.png",
+    "attachment",
+    "output/README.md",
+    "output/attachment/42ab32904955cc3f0e30f181b05893a0.png",
+    "output/attachment/2cad90618c39b515f5dd3bf390995567.png",
+    "output/attachment/bccdac2c03995e4c47c32c3e09344589.png",
+    "output/attachment",
+    "output",
     "LabOne/kubernetes lab one.md",
     "LabSeven/kubernetes lab seven.md",
     "LabSix/kubernetes lab six.md",
@@ -173,22 +198,9 @@
     "output/host-path-pod.yml",
     "output/empty-dir-pod.yml",
     "output/configmap.yml",
-    "output/attachment/dcb06affdcf4ca56ac7e42c77e0a5360.png",
-    "output/attachment/b2088ced779e518b627d90698d3f8be5.png",
-    "output/attachment/6504f0e6ae05280592e222f4e92a631a.png",
-    "output/attachment/5f12f9107505856e77e5c7db9b357f42.png",
-    "output/attachment/3a73378530aa8d87719d0c316dd256d5.png",
-    "output/attachment",
-    "output",
-    "LabSix/attachment/Pasted image 20240915004745.png",
-    "LabSix/attachment/Pasted image 20240915004526.png",
     "LabSix/pod-with-subpath.yml",
-    "LabSix/attachment/Screenshot_20240915_002902.png",
-    "LabSix/attachment/Pasted image 20240915002620.png",
-    "LabSix/attachment/Pasted image 20240915002554.png",
     "LabSix/pv-resize-task.yaml",
     "LabSix/storageclass-resize-task.yaml",
-    "LabSix/storageclass-resize-task",
     "LabFive/kubernetes lab five.md",
     "LabFour/kubernetes lab four.md",
     "LabTwo/kubernetes lab two.md",

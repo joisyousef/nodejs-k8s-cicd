@@ -4,6 +4,7 @@ npm-debug.log
 .npm
 .env.*
 .obsidian
+.smart-env
 
 # Next.js Build Output
 .next
