@@ -37,18 +37,13 @@ pipeline {
             }
         }
 
-        stage('Build Code'){
-            steps{
-                sh 'npm run build'
+        
+        stage('Run Unit Tests') {
+            steps {
+                echo 'Running Unit Tests...'
+                sh 'npm run test || { echo "Unit tests failed"; exit 1; }'
             }
         }
-
-        // stage('Run Unit Tests') {
-        //     steps {
-        //         echo 'Running Unit Tests...'
-        //         sh 'npm run test || { echo "Unit tests failed"; exit 1; }'
-        //     }
-        // }
 
         stage('Dockerize') {
             steps {
