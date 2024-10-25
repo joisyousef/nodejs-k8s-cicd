@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: jaliayman225/nodejs-app:latest
+        image: halimo2/nodejs.org:latest
         ports:
         - containerPort: 3000
