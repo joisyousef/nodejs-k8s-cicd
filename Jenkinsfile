@@ -24,18 +24,6 @@ pipeline {
             }
         }
 
-        stage('Install Node.js') {
-            steps {
-                // Install Node.js and npm manually (example for Ubuntu)
-                sh '''
-                    curl -sL https://deb.nodesource.com/setup_20.x | bash -
-                    sudo apt-get install -y nodejs
-                    node -v
-                    npm -v
-                '''
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 echo 'Installing Dependencies...'
