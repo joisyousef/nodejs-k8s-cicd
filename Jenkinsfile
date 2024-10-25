@@ -43,6 +43,12 @@ pipeline {
             }
         }
 
+        stage('Build Code'){
+            steps{
+                sh 'npm run build'
+            }
+        }
+
         Uncomment this if you have unit tests set up
         stage('Run Unit Tests') {
             steps {
