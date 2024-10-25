@@ -1,24 +1,22 @@
 {
   "main": {
-    "id": "2c9342095c3505d9",
+    "id": "d1068d8b7db8890b",
     "type": "split",
     "children": [
       {
-        "id": "0127b69505b4129f",
+        "id": "0b83e59af4119e8a",
         "type": "tabs",
         "children": [
           {
-            "id": "d1b7b5c26708a772",
+            "id": "329330c37dd20d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "LabSeven/kubernetes lab seven.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              }
             }
           }
         ]
@@ -27,27 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "47497465b464789e",
+    "id": "6cc8c8c40180bc2e",
     "type": "split",
     "children": [
       {
-        "id": "edb5136330485c7a",
+        "id": "b9d18520c2659578",
         "type": "tabs",
         "children": [
           {
-            "id": "bf5a3acebc939dfc",
+            "id": "c36bb6e1fe7ee024",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
-            "id": "6a85a580399a8cb5",
+            "id": "9b3ed307d6f2896b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,19 +54,15 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
-            "id": "3706ee8a03c9d926",
+            "id": "646027801d02dcdb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -80,20 +72,28 @@
     "width": 300
   },
   "right": {
-    "id": "ae4ba05825d8cfe4",
+    "id": "366e4d472dff5129",
     "type": "split",
     "children": [
       {
-        "id": "31fb9718a57380ac",
+        "id": "9e09981cb35e1388",
         "type": "tabs",
         "children": [
           {
-            "id": "457e00ef6a4e6ca5",
+            "id": "0e49f2b2a64f8bee",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "46c8809e047b4089",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "LabSeven/kubernetes lab seven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,48 +101,40 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              }
             }
           },
           {
-            "id": "16c375190a247f02",
+            "id": "73d220ff5c9fc233",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "LabSeven/kubernetes lab seven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              }
             }
           },
           {
-            "id": "d1db2c7621516779",
+            "id": "75a7a90204ad3335",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
-            "id": "96aac294d498b7dc",
+            "id": "91e1e34a683bda0b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of README"
+                "file": "LabSeven/kubernetes lab seven.md"
+              }
             }
           }
         ]
@@ -154,25 +146,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-to-notion:Share to notion": false,
+      "obsidian42-brat:BRAT": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d1b7b5c26708a772",
+  "active": "329330c37dd20d0c",
   "lastOpenFiles": [
-    "Pasted image 20241025080938.png",
-    "Pasted image 20241025080917.png",
-    "Pasted image 20241025080854.png",
-    "Pasted image 20241025080827.png",
-    "Pasted image 20241025080805.png",
-    "Pasted image 20241025080730.png",
-    "Pasted image 20241025080258.png",
-    "Pasted image 20241025080241.png",
-    "Pasted image 20241025080228.png",
-    "Pasted image 20241025080158.png"
+    "LabOne/kubernetes lab one.md",
+    "LabSeven/kubernetes lab seven.md",
+    "LabSix/kubernetes lab six.md",
+    "LabSeven",
+    "LabThree/kubernetes lab three.md",
+    "output/host-path-pod.yml",
+    "output/empty-dir-pod.yml",
+    "output/configmap.yml",
+    "output/attachment/dcb06affdcf4ca56ac7e42c77e0a5360.png",
+    "output/attachment/b2088ced779e518b627d90698d3f8be5.png",
+    "output/attachment/6504f0e6ae05280592e222f4e92a631a.png",
+    "output/attachment/5f12f9107505856e77e5c7db9b357f42.png",
+    "output/attachment/3a73378530aa8d87719d0c316dd256d5.png",
+    "output/attachment",
+    "output",
+    "LabSix/attachment/Pasted image 20240915004745.png",
+    "LabSix/attachment/Pasted image 20240915004526.png",
+    "LabSix/pod-with-subpath.yml",
+    "LabSix/attachment/Screenshot_20240915_002902.png",
+    "LabSix/attachment/Pasted image 20240915002620.png",
+    "LabSix/attachment/Pasted image 20240915002554.png",
+    "LabSix/pv-resize-task.yaml",
+    "LabSix/storageclass-resize-task.yaml",
+    "LabSix/storageclass-resize-task",
+    "LabFive/kubernetes lab five.md",
+    "LabFour/kubernetes lab four.md",
+    "LabTwo/kubernetes lab two.md",
+    "LabOne/README.md"
   ]
 }

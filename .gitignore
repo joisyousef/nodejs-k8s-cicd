@@ -3,6 +3,7 @@ node_modules
 npm-debug.log
 .npm
 .env.*
+.obsidian
 
 # Next.js Build Output
 .next
